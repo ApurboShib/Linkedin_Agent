@@ -4,12 +4,16 @@ A powerful, AI-driven tool designed to craft professional, engaging, and insight
 
 ---
 
-##  Project Demo
+## Project Demo
 
 Experience the agent in action! Watch how it generates high-quality content and provides a beautiful live preview.
 
+> [!TIP]
+> **Click to Play**: To see the full video demonstration, click the video player below.
+
 <div align="center">
   <video src="Video/demo.mov" width="100%" controls>
+    <source src="Video/demo.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -96,5 +100,5 @@ Contributions are welcome! If you have ideas for new features or improvements, f
 ---
 
 <div align="center">
-  <sub>Built Joy Shib</sub>
+  <sub>Built by Joy Shib</sub>
 </div>
