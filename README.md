@@ -9,21 +9,13 @@ A powerful, AI-driven tool designed to craft professional, engaging, and insight
 Experience the agent in action! Watch how it generates high-quality content and provides a beautiful live preview.
 
 <div align="center">
-  <a href="Video/demo.mov">
-    <img src="Video/thumbnail.png" alt="Watch Demo Video" width="100%">
-  </a>
-</div>
-
-> [!TIP]
-> **Click the image above to play the demo video.**
-
-<div align="center">
   <video src="Video/demo.mov" width="100%" controls>
-    <source src="Video/demo.mov" type="video/mp4">
     <source src="Video/demo.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
 </div>
+
+[Click here to watch the demo video directly](Video/demo.mov)
 
 ---
 
