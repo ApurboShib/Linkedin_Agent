@@ -8,13 +8,16 @@ A powerful, AI-driven tool designed to craft professional, engaging, and insight
 
 Experience the agent in action! Watch how it generates high-quality content and provides a beautiful live preview.
 
+[![Watch Video](https://img.shields.io/badge/Watch-Demo_Video-red?style=for-the-badge&logo=youtube)](Video/demo.mov)
+
 > [!TIP]
-> **Click to Play**: To see the full video demonstration, click the video player below.
+> **Click the red "Watch Demo Video" badge above** or use the player below to see the project in action.
 
 <div align="center">
   <video src="Video/demo.mov" width="100%" controls>
+    <source src="Video/demo.mov" type="video/mp4">
     <source src="Video/demo.mov" type="video/quicktime">
-    Your browser does not support the video tag.
+    Your browser does not support the video tag. You can [click here to download/watch the video directly](Video/demo.mov).
   </video>
 </div>
 
