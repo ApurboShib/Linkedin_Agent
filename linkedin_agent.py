@@ -76,11 +76,13 @@ class LinkedInPostGenerator:
 
     @staticmethod
     def _normalize_bengali_text(text: str) -> str:
-        # Normalize Unicode and remove problematic invisible characters.
+        # Normalize Unicode to NFC (Canonical Composition) which is standard for web.
+        # We also remove specific invisible characters that can break some renderers.
         cleaned = unicodedata.normalize("NFC", text)
+        # We keep ZWJ/ZWNJ as they are often needed for correct Bengali conjuncts,
+        # but we remove Zero Width Space and BOM.
         for ch in ("\u200b", "\ufeff"):
             cleaned = cleaned.replace(ch, "")
-        cleaned = cleaned.replace("\r\n", "\n").replace("\r", "\n")
         return cleaned.strip()
     
     def generate_post(self, topic: str, language: str) -> str:
